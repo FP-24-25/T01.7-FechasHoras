@@ -41,5 +41,6 @@ Persona = namedtuple ("Persona", "nombre, peso, estatura, fecha_nacimiento"
 ```
 6. Modifica la función de lectura de ficheros para poder leer datos de personas con fechas de nacimiento. Prueba la lectura con el archivo `personas_fechas.csv` que se proporciona en la carpeta data
 
+7. Añade una funcion `son_mayores_edad` que dada una lista de tuplas de tipo Persona, devuelva cierto si todas las personas de la lista son mayores de edad, y falso en caso contrario.
 
 
